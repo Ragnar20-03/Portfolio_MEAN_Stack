@@ -1,0 +1,73 @@
+.main{
+    width: 100%;
+}
+
+.head{
+    position: relative;
+    left: 40%;
+    background-color: black;
+    width: 20%;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-radius: 22px;
+    color: white;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.card  {
+    background-color: black;
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    border: solid;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    padding: 10px;
+    margin: 7px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+a:hover{
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+}
+.card-body:hover
+{
+    transition: 0.4s;
+    background-color: rgb(50, 50, 50);
+    color: rgb(237, 223, 223); 
+    border-radius: 15px;
+}
+.card-header:hover
+{
+    transition: 0.4s;
+    border-radius: 18px;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+}
+.mydiv{
+display: flex;
+
+}
