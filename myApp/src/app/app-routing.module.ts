@@ -20,7 +20,7 @@ const routes: Routes = [
     path:"contact" , component:ContactComponent
   },
   {
-    path : "portfollio" , component:PortfollioComponent
+    path : "portfolio" , component:PortfollioComponent
   },
   {
     path:"**" , component : NotFoundComponent

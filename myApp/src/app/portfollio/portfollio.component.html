@@ -1,26 +1,23 @@
-<div class="main">
-    <div class="head"><br>
-        <h1 class="title">PortFolio</h1>
+    <div class="header">
+        <h1 class="title">Portfolio</h1>
     </div>
-    <br>
-    <div class="temp"> 
-        <div class="mydiv" *ngFor="let data of port">
-            <div class="card">
-                <div class="card-header">
-                    <h1>{{data.name}}</h1>
-                </div>
-                <div class="card-body">
-                    <p>
-                      {{data.desc}}
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href=""> ReadMore</a>
-                    <a href={{data.desc}}> GitHub</a>
-                </div>
+<div class="row">
+    <div class="col-sm-4 mt-5 "  *ngFor="let event of port ; let i = index">
+        <div class="card text-center">
+            <div class="card-header">
+              {{i+1}}. {{event.name}}
             </div>
+            <div class="card-body">
+              <h5 class="card-title">{{event.name}}</h5>
+              <p class="card-text"> {{event.desc}}.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href={{event.desc}} class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+          
     </div>
 
-    </div>
-
-</div>
+  </div>
